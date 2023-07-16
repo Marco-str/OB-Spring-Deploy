@@ -18,7 +18,7 @@ public class HelloController {
         return "Hola mundo, el priemr getMapping....no vemo en diosney";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                                 
